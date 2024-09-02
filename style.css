@@ -1,0 +1,33 @@
+.input_container {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.percentage-input {
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    background: #e0e1df; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-right: 30px; 
+}
+
+.percentage-input:focus {
+    background: #e0e1df; 
+}
+
+input {
+    color: black;
+    background-color:#e0e1df ;
+    font-weight: 700;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
